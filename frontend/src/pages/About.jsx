@@ -1,9 +1,7 @@
 import React from "react";
-import Jump from "react-reveal/Jump";
 
 const About = () => {
   return (
-    <Jump>
       <div
         id="About"
         className="max-w-fit mr-5 ml-60 my-10 
@@ -33,7 +31,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </Jump>
   );
 };
 
