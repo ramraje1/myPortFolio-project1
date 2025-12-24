@@ -1,10 +1,10 @@
 import React from "react";
 import { TechstackList } from "../utils/TechstackList";
-import RubberBand from "react-reveal/RubberBand";
+
 const Tech = () => {
   return (
     <div id="Tech" className="ml-70 mt-16 mr-3">
-      <RubberBand>
+  
         <div className="text-blue-700 font-serif text-7xl ">
           <h1 className=" text-center"> Technologies Stack</h1>
         </div>
@@ -17,7 +17,7 @@ const Tech = () => {
             and back-end tools, and APIs
           </p>
         </div>
-      </RubberBand>
+     
       <div className="flex flex-wrap gap-3 ">
         {TechstackList.map((tech) => {
           return (
