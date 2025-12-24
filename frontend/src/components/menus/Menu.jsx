@@ -6,8 +6,7 @@ import { GrUserWorker } from "react-icons/gr";
 import { SiCodeproject } from "react-icons/si";
 import { FcBusinessContact } from "react-icons/fc";
 import { Link } from "react-scroll";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-awesome-reveal";
+
 import "./Menu.css";
 const Menu = ({ toggle }) => {
   return (
@@ -15,14 +14,14 @@ const Menu = ({ toggle }) => {
       {toggle ? (
         <>
           <div className="navbar-profile-pic">
-            <Zoom>
+           
               <img
                 src="ramhd.jpg"
                 className="flex border-2 border-black rounded-full w-75 h-50 mx-auto"
                 alt="profile pic"></img>
-            </Zoom>
+           
           </div>
-          <Fade left>
+         
             <div>
               <Link
                 activeClass="active"
@@ -108,7 +107,7 @@ const Menu = ({ toggle }) => {
                 </div>
               </Link>
             </div>
-          </Fade>
+          
         </>
       ) : (
         <div>
