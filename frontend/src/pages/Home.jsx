@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { MdWbSunny } from "react-icons/md";
 import Resum from "../assets/pdf/myresume.pdf";
-import Fade from "react-awesome-reveal";
+
 import { Context } from "../App";
 const Home = () => {
   const { theam, setTheam } = useContext(Context);
@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className=" text-amber-50 text-4xl mx-55 my-11">
         {" "}
-        <Fade left>
+        
           <h2>Hi 👋 I'm a</h2>
           <h2>
             <Typewriter
@@ -35,8 +35,8 @@ const Home = () => {
               }}
             />
           </h2>
-        </Fade>
-        <Fade bottom>
+      
+        
           <div className="mt-3">
             <button className="btn btn-primary me-3 p-2">Hire Me</button>
             <button className="btn btn-secondary p-2 ">
@@ -48,7 +48,7 @@ const Home = () => {
               </a>
             </button>
           </div>
-        </Fade>
+        
       </div>
     </div>
   );
