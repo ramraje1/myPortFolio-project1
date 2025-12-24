@@ -19,7 +19,7 @@ const Contact = () => {
         alert("fill the all filled");
       }
       const res = await axios.post(
-        "http://localhost:8080/api/portfolio/email",
+        "https://myportfolio-project1.onrender.com/api/portfolio/email",
         {
           name,
           email,
