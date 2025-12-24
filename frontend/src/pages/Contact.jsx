@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import LightSpeed from "react-reveal/LightSpeed";
-import Rotate from "react-reveal/Rotate";
+
 import axios from "axios";
 const Contact = () => {
   const [name, setName] = useState("");
@@ -46,12 +45,12 @@ const Contact = () => {
         <hr className="my-8 w-40 mx-auto border-blue-500" />
       </div>
       <div className="grid grid-cols-2 max-w-fit mr-4 ml-57 border my-2 ">
-        <LightSpeed>
+       
           <div className="w-fit flex justify-center items-center p-10">
             <img src="cnt.avif"></img>
           </div>
-        </LightSpeed>
-        <Rotate>
+      
+       
           <div className=" w-75 mx-24 my-4 p-3">
             <h5 className="flex items-center gap-3 text-3xl">
               Contact With
@@ -92,7 +91,7 @@ const Contact = () => {
               </button>
             </div>
           </div>
-        </Rotate>
+       
       </div>
     </>
   );
