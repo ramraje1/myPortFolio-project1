@@ -1,12 +1,11 @@
 import React from "react";
 import ProjectsList from "../utils/ProjectsList";
-import Jump from "react-reveal/Jump";
-import Spin from "react-reveal/Spin";
+
 const Project = () => {
   let skill = ["Node", "Express", "React", "MongoDb"];
   return (
     <>
-      <Jump>
+     
         <div id="project" className="ml-70 mt-16 mr-10">
           <div className="text-blue-700 font-serif text-7xl">
             <h1 className=" text-center"> Projects Stack</h1>
@@ -53,7 +52,7 @@ const Project = () => {
             })}
           </div>
         </div>
-      </Jump>
+    
     </>
   );
 };
